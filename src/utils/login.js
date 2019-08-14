@@ -1,5 +1,5 @@
 export default (func) => {
     chayns.addAccessTokenChangeListener(func);
-    //no Reload
+    //no Reload ok?
     chayns.login();
 };
