@@ -11,7 +11,7 @@ const handleUserIsLoggedIn = ($introElement, $loginBtn) => {
 };
 
 const handleUserIsLoggedOut = ($introElement, $loginBtn) => {
-    $introElement.innerText = 'Bitte melde dich an';
+    $introElement.innerText = 'Bitte melde dich selber an';
     $loginBtn.innerText = 'Anmelden';
     $loginBtn.addEventListener('click', () => {
         login(() => handleUserIsLoggedIn($introElement, $loginBtn));
